@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nature's Platter</title>
     <!-- daisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- web icon -->
+    <link rel="shortcut icon" href="c2-assets/tree-solid.svg" type="image/x-icon">
     <style>
       .color{
         color: #179800;
@@ -19,13 +25,16 @@
       .bg-vegetable-img{
         background: linear-gradient((#FFFFFF, #53DB3A)),url(./c2-assets/vegetable-offer.png);
       }
+      .font-sora{
+        font-family: "Sora", serif;
+      }
     </style>
 </head>
-<body>
+<body class="font-sora">
     <!-- header section -->
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] mb-32">
         <!-- nav bar -->
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 border-b-2 border-[#179800] lg:border-white">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -37,7 +46,7 @@
                   </svg>
                 </div> 
               </div>
-              <a class="btn btn-ghost text-xl"><img src="./c2-assets/logo-header.png" alt=""></a>
+              <a class="btn btn-ghost text-xl mb-4"><img src="./c2-assets/logo-header.png" alt=""></a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -53,7 +62,7 @@
               <a class="btn bg-[#179800] px-7 text-white invisible	lg:visible">Register</a>
               <img class="h-12 visible lg:invisible pr-10" src="c2-assets/bars-solid (1).svg" alt="">
             </div>
-          </div>
+          </div><br>
         <!-- header container -->
          <div class="mt-24">
             <h1 class="text-5xl text-center mb-6 font-semibold">Freshness <span class="text-[#179800]">You Can <br>
@@ -322,7 +331,7 @@
                 <div class="space-y-6 mt-14">
                   <h1 class="font-bold text-4xl text-[#179800] lg:text-black ">Get Grocery News!</h1>
                   <p class="text-gray-500 text-2xl">Exclusive training tips, ticks, product deals and more.</p>
-                  <input class="py-5 pl-5 pr-48 rounded-lg " type="email" name="" id="" placeholder="Enter email...">
+                  <input class="py-5 pl-5 pr-32 lg:pr-48 rounded-lg " type="email" name="" id="" placeholder="Enter email...">
                   <br>
                   <button class="btn bg-[#179800] px-10  text-white text-xl">Subscribe</button>
                 </div>
