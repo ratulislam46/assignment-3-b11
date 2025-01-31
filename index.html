@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .color{
+        color: #179800;
+      }
+      .bg-color{
+        background-color: #EFEBE3;
+      }
+      .bg-vegetable-img{
+        background: linear-gradient((#FFFFFF, #53DB3A)),url(./c2-assets/vegetable-offer.png);
+      }
+    </style>
+</head>
+<body>
+    <!-- header section -->
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] mb-32">
+        <!-- nav bar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div> 
+              </div>
+              <a class="btn btn-ghost text-xl"><img src="./c2-assets/logo-header.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-4">
+                <i class="fa-solid fa-magnifying-glass" style="color: #070707b4;"></i>
+                <i class="fa-solid fa-cart-shopping" style="color: #0d0e0ec5;"></i>
+              <a class="btn border border-green-600 px-7">Longin</a>
+              <a class="btn bg-[#179800] px-7 text-white">Register</a>
+            </div>
+          </div>
+        <!-- header container -->
+         <div class="mt-14">
+            <h1 class="text-5xl text-center mb-6 font-semibold">Freshness <span class="text-[#179800]">You Can <br>
+                Count</span> On, Prices You’ll Love!</h1>
+                <p class="text-center text-gray-500 text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+                <div class="flex justify-center mt-12">
+                    <img  src="c2-assets/hero-vegetables.png" alt="">
+                </div>
+         </div>
+    </header>
+    <!-- main section -->
+    <main>
+        <!-- services section -->
+         <section class="container mx-auto mb-32">
+            <h2 class="font-semibold text-3xl color ml-5 mb-8 lg:ml-0">Service</h2>
+            <!-- services container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- card 1 -->
+                 <div class="bg-[#EFEBE3] rounded-2xl text-center space-y-5 py-7 p-7 mx-5 lg:mx-0">
+                    <img class="mx-auto" src="c2-assets/service.png" alt="">
+                    <h1 class="text-2xl font-semibold">24/7 Services</h1>
+                    <p class="text-gray-500 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                 </div>
+                <!-- card 2 -->
+                 <div class="bg-[#EFEBE3] rounded-2xl text-center space-y-5 p-7 mx-5 lg:mx-0">
+                    <img class="mx-auto" src="c2-assets/service.png" alt="">
+                    <h1 class="text-2xl font-semibold">24/7 Services</h1>
+                    <p class="text-gray-500 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                 </div>
+                <!-- card 3 -->
+                 <div class="bg-[#EFEBE3] rounded-2xl text-center space-y-5 p-7 mx-5 lg:mx-0">
+                    <img class="mx-auto" src="c2-assets/service.png" alt="">
+                    <h1 class="text-2xl font-semibold">24/7 Services</h1>
+                    <p class="text-gray-500 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                 </div>
+            </div>
+         </section>
+         <!-- Popular products -->
+          <section class="bg-color mb-32 ">
+            <div class="container mx-auto">
+            
+              <h2 class="font-semibold text-3xl color pb-12 pt-24 ml-5 lg:ml-0 mb-8 lg:mb-0">Popular Products</h2>
+              <div class="lg:flex gap-5">
+                <!-- image area -->
+                <div class="pt-16 pl-10 mx-5 lg:mx-0 lg:w-4/12 mb-24 rounded-lg bg-no-repeat"
+                 style="background-image: linear-gradient(#53db3ad1,#ffffffa8), url(./c2-assets/vegetable-offer.png);">
+                 <div class="rounded-lg"></div>
+                 <div class="text-left">
+                <div class="">
+                 <h1 class="mb-5 text-5xl font-bold">30% Off<h1>
+                 <p class="mb-5 text-gray-600 text-xl">Discover a world of treats, toys, and essentials handpicked for</p>
+                <button class="btn px-12 mb-36">Buy Now<button>
+                </div>
+                </div>
+                </div>
+                <!-- product list -->
+                <div class="w-8/12 grid grid-cols-2 lg:grid-cols-3 gap-4 mx-auto lg:mx-0 mb-24">
+                  <!-- card 1 -->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                  <!-- card 2 -->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                  <!-- card 3 -->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                  <!-- card 4 -->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                  <!-- card 5 -->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                  <!-- card 6 -->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                  <!-- card 7-->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                  <!-- card 8 -->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                  <!-- card 9 -->
+                   <div class="flex items-center gap-3 bg-white rounded-lg p-4 invisible lg:visible">
+                    <!-- product image -->
+                     <div>
+                      <img class="bg-color rounded-xl" src="c2-assets/delivery.png" alt="">
+                     </div>
+                     <!-- product details -->
+                      <div>
+                        <h3><i class="fa-solid fa-star mr-1" style="color: #FFD43B;"></i>4.5</h3>
+                        <h2 class="text-2xl font-medium">Onion 1 KG</h2>
+                        <p>$39.99</p>
+                      </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Arrival offers section  -->
+         <section class="container mx-auto mb-32">
+          <h2 class="font-semibold text-3xl color ml-5 mb-8 lg:ml-0">Arrival & Offers</h2>
+          <!-- arrival container -->
+           <div class="lg:flex justify-between">
+              <!-- box 1 -->
+              <div class="flex bg-[#115414]">
+              <div class="text-center ">
+                <img src="./c2-assets/dawat-logo.png" alt="">
+                <button class="btn mt-6 mb-4 bg-[#63B76D] text-white px-20">Cook Exotic Dishes</button>
+                <h1 class="text-4xl">UP to <span class="font-bold">20% OFF</span></h1>
+              </div>
+              <div>
+                <img src="c2-assets/dawat-mock-up.png" alt="">
+              </div>
+              </div>
+              <!-- box 2 -->
+              <div class="flex bg-[#102861]">
+              <div class="text-center ">
+                <img src="./c2-assets/india-gate-logo.png" alt="">
+                <button class="btn mt-6 mb-4 bg-[#63B76D] text-white px-20">Cook Exotic Dishes</button>
+                <h1 class="text-4xl">UP to <span class="font-bold">20% OFF</span></h1>
+              </div>
+              <div>
+                <img src="c2-assets/dawat-mock-up.png" alt="">
+              </div>
+              </div>
+           </div>
+         </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+
+    </footer>
+</body>
+</html>
